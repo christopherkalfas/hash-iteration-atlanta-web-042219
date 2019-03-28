@@ -5,7 +5,7 @@
 # suite_d: "Charlie Chaplin", 
 # suite_e: "Crumpet the Elf"
 # }
-require'pry'
+
 def select_winner
   winner = ""
 passengers.each do |suite, name|
